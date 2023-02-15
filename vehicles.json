@@ -5,29 +5,24 @@
             "max_range_in_km": 20,
             "co2_emissions_grams_per_km": 15
         },
-        {
-            "id": "v002",
-            "max_range_in_km": 25,
-            "co2_emissions_grams_per_km": 25
-        },
-        {
-            "id": "v003",
-            "max_range_in_km": 25,
-            "co2_emissions_grams_per_km": 25
+                {
+            "id": "v006",
+            "max_range_in_km": 40,
+            "co2_emissions_grams_per_km": 40
         },
         {
             "id": "v004",
             "max_range_in_km": 40,
             "co2_emissions_grams_per_km": 40
         },
-        {
-            "id": "v005",
-            "max_range_in_km": 40,
-            "co2_emissions_grams_per_km": 40
+                {
+            "id": "v009",
+            "max_range_in_km": 80,
+            "co2_emissions_grams_per_km": 70
         },
         {
-            "id": "v006",
-            "max_range_in_km": 40,
+            "id": "v005",
+            "max_range_in_km": 45,
             "co2_emissions_grams_per_km": 40
         },
         {
@@ -35,15 +30,20 @@
             "max_range_in_km": 80,
             "co2_emissions_grams_per_km": 75
         },
+                {
+            "id": "v002",
+            "max_range_in_km": 30,
+            "co2_emissions_grams_per_km": 30
+        },
+        {
+            "id": "v003",
+            "max_range_in_km": 25,
+            "co2_emissions_grams_per_km": 25
+        },
         {
             "id": "v008",
             "max_range_in_km": 80,
-            "co2_emissions_grams_per_km": 75
-        },
-        {
-            "id": "v009",
-            "max_range_in_km": 80,
-            "co2_emissions_grams_per_km": 75
+            "co2_emissions_grams_per_km": 80
         }
     ]
 }
