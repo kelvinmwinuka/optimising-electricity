@@ -247,59 +247,6 @@
         },
         {
           "stop_id": "e6d10ee6-f4b6-4b4f-8775-5e5d61eaf295",
-          "distance_km": 4.7
-        }
-      ]
-    },
-    {
-      "route_id": "R6660789",
-      "stops": [
-        {
-          "stop_id": "e2f2f764-3129-4a28-bc8f-b93e4b4f4d10",
-          "distance_km": 4.1
-        },
-        {
-          "stop_id": "bda647da-e62d-4a07-9c77-f8b5e4561d17",
-          "distance_km": 3.8
-        },
-        {
-          "stop_id": "c09db36c-300a-4efc-aa55-14a8a15f4511",
-          "distance_km": 2.6
-        },
-        {
-          "stop_id": "e5e5f5e5-5c02-4a2a-975c-aa9abf836a09",
-          "distance_km": 6.1
-        },
-        {
-          "stop_id": "f8d20092-23a8-4c16-9e25-8a8eac9d85b2",
-          "distance_km": 4.4
-        },
-        {
-          "stop_id": "c5f81e47-d5dd-4a8a-ba1e-5d2f2d287ff2",
-          "distance_km": 2.9
-        },
-        {
-          "stop_id": "eb4c1b57-b1c9-45b9-bb7d-9630a83468e2",
-          "distance_km": 3.2
-        },
-        {
-          "stop_id": "a0eb119f-7f85-47c6-a8e2-c1f3365d2083",
-          "distance_km": 7.6
-        },
-        {
-          "stop_id": "d64b44de-e4c6-4bc6-bd77-82b1f4c32a08",
-          "distance_km": 3.7
-        },
-        {
-          "stop_id": "b2eb9aa6-b97f-4a12-930c-c72e09db44e2",
-          "distance_km": 4.1
-        },
-        {
-          "stop_id": "c12382b2-1c84-47f6-921e-0f60c2f48d36",
-          "distance_km": 5.5
-        },
-        {
-          "stop_id": "e6d10ee6-f4b6-4b4f-8775-5e5d61eaf295",
           "distance_km": 2.9
         }
       ]
