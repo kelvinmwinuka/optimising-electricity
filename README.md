@@ -18,7 +18,7 @@ Output a list of the vehicle IDs and the route they will complete.
 
 Output the total CO2 emissions for the solution.
 
-Take the most innefficient vehicle from the vehicles.json array and output the total C02 emissions if only this type of vehicle would complete the routes.
+Take the most inefficient vehicle from the `vehicles.json` array and output the total C02 emissions if only this type of vehicle would complete the routes.
 
 ## The Rules
 
