@@ -1,29 +1,26 @@
-# Minimize CO2 Emissions for Delivery Routes
+# Minimise delivery emissions
 
-Welcome to the Delivery Routes pairing exercise for HIVED, the world's most eco-friendly parcel delivery company. At HIVED, we are striving to minimize the carbon footprint of our deliveries, and this exercise is similar to the problems we solve here at HIVED.
+Welcome to the Delivery Emissions live coding exercise for HIVED, the eco-friendly delivery company :truck::recycle:
 
-## The Problem
+At HIVED, we are striving to minimize the carbon footprint of our deliveries, and this exercise is similar to the problems we solve here at HIVED.
 
-You are given two JSON files.
+## Instructions
+
+* :speech_balloon: See this exercise as an interactive session, ask us questions as you would if we were working together
+* :ok_hand: Aim to write code in the way you would every day - **you will not be penalised for not completing the exercise**
+
+## Exercise
+
+We'd like you to create an app that puts together routes -with different distances- and vehicles -with different emissions- to find the optimal combination, the one that will emit the least amount of CO2.
+
+### Input
 
 1. `routes.json` This contains an array of different routes. Each route will have an ID and a list of stops. Each stop will have a distance from the previous stop in kilometers.
 
 2. `vehicles.json` This contains an array of vehicles. Each vehicle will have an ID, a maximum range in kilometers, and a CO2 emissions per kilometer.
 
-We'd like you to create an app that goes through these json files and finds the optimal vehicle for each route that results in the lowest total CO2 emissions.
+### Output
 
-## Expected Output
-
-Output a list of the vehicle IDs and the route they will complete.
-
-Output the total CO2 emissions for the solution.
-
-Take the most inefficient vehicle from the `vehicles.json` array and output the total C02 emissions if only this type of vehicle would complete the routes.
-
-## The Rules
-
-Approach this problem any way you like, you can build a RESTful service, a command line app or a UI if you wish.
-
-We won't spend the whole session writing code; we like to leave plenty of time at the end for you to ask us questions. Don't feel you have to rush a solution. **You will not be judged on whether you finish or not.** We would much rather you give us a solution that you are proud of and feel best displays the type of code you would want to ship into production. That said, make sure there is a way to run your app and it does give some sort of output.
-
-We'll approach this in a very similar way to how we pair at HIVED day-to-day. We'd like you to lead the session, but we'll be assisting you and asking questions along the way. We're there to help build the app, not to catch you out.
+* List of optimal vehicle-route pairs
+* Total CO2 emissions when using the most polluting vehicle for all routes
+* Total CO2 emissions when using the most optimal vehicle-route pairing
