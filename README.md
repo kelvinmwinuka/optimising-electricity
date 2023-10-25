@@ -13,7 +13,7 @@ We'd like you to write a program that assigns vehicles to routes, in a way that 
 
 1. `routes.json` This contains an array of different routes. Each route will have an ID and a list of stops. Each stop will have a distance from the previous stop in kilometers.
 
-2. `vehicles.json` This contains an array of vehicles. Each vehicle will have an ID, a maximum range in kilometers, and its electricity consumption in kWh/100km.
+2. `vehicles.json` This contains an array of vehicles. Each vehicle will have an ID, a capacity in kWh, and an average electricity consumption in kWh/100km.
 
 ### Output
 
