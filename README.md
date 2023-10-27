@@ -20,8 +20,8 @@ We'd like you to write a program that assigns vehicles to routes, in a way that 
 As an output, we'd like to see:
 
 * The list of optimal vehicle-route pairs
-* The total kWh required to complete all routes one after the other using the least efficient vehicle
-* The total kWh required to complete all routes in parallel using the best vehicle-route pairing
+* The total kWh required to complete all routes sequentially using the least efficient vehicle only
+* The total kWh required to complete all routes in parallel using the optimal vehicle-route pairs
 
 ## Instructions
 
