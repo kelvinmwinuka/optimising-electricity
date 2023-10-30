@@ -27,6 +27,7 @@
     },
     {
       "id": "v007",
+      "capacity_kwh": 16,
       "kwh_per_100_km": 21
     },
     {
