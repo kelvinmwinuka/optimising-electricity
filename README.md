@@ -7,21 +7,19 @@ But different sizes of vans will vary in their electricity consumption, and so i
 
 ## Exercise
 
-We'd like you to write a program that assigns vehicles to routes, in a way that will minimise electricity consumption (in kWh).
+We'd like you to write a program that assigns vehicles to routes, in a way that will minimise total energy consumption.
 
 ### Input
 
 1. `routes.json` This contains an array of different routes. Each route will have an ID and a list of stops. Each stop will have a distance from the previous stop in kilometers.
 
-2. `vehicles.json` This contains an array of vehicles. Each vehicle will have an ID, a capacity in kWh, and an average electricity consumption in kWh/100km.
+2. `vehicles.json` This contains an array of vehicles. Each vehicle will have an ID, a capacity in kWh, and an electricity consumption in kWh/100km.
 
-### Output
+### Questions
 
-As an output, we'd like to see:
-
-* The list of optimal vehicle-route pairs
-* The total kWh required to complete all routes sequentially using the least efficient vehicle only
-* The total kWh required to complete all routes in parallel using the optimal vehicle-route pairs
+1. Let's establish a baseline: What's the total energy in kWh required to complete all routes using the least efficient vehicle. You can ignore the vehicle's range for this question.
+2. Find the list of vehicle-route pairs that will minimise total energy consumption. A vehicle can at most be assigned to one route.
+3. Compare the total energy consumed using the optimal vehicle-route pairing to the baseline established in question 1.
 
 ## Instructions
 
